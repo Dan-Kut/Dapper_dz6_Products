@@ -12,6 +12,6 @@ namespace Dapper_dz6_Products.Models
         public string Name { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
         public decimal Price { get; set; }
-        public DateTime ExpiringDate { get; set; }
+        public DateTime CreatedAt { get; set; }
     }
 }
